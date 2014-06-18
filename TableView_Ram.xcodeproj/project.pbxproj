@@ -19,6 +19,13 @@
 		4FD43F7919500C48007615CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD43F6119500C48007615CF /* UIKit.framework */; };
 		4FD43F8119500C48007615CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43F7F19500C48007615CF /* InfoPlist.strings */; };
 		4FD43F8319500C48007615CF /* TableView_RamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43F8219500C48007615CF /* TableView_RamTests.m */; };
+		4FD43F8F19500CAC007615CF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43F8D19500CAC007615CF /* TableViewController.m */; };
+		4FD43F9019500CAC007615CF /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43F8E19500CAC007615CF /* TableViewController.xib */; };
+		4FD43F9419500F67007615CF /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43F9219500F67007615CF /* TableViewCell.m */; };
+		4FD43F9519500F67007615CF /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43F9319500F67007615CF /* TableViewCell.xib */; };
+		4FD43F98195016C9007615CF /* hr_line-sepration.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43F96195016C9007615CF /* hr_line-sepration.png */; };
+		4FD43F99195016C9007615CF /* hr_line-sepration@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43F97195016C9007615CF /* hr_line-sepration@2x.png */; };
+		4FD43F9B19501D17007615CF /* oper_Reasearch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43F9A19501D17007615CF /* oper_Reasearch-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,15 @@
 		4FD43F7E19500C48007615CF /* TableView_RamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView_RamTests-Info.plist"; sourceTree = "<group>"; };
 		4FD43F8019500C48007615CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4FD43F8219500C48007615CF /* TableView_RamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_RamTests.m; sourceTree = "<group>"; };
+		4FD43F8C19500CAC007615CF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4FD43F8D19500CAC007615CF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		4FD43F8E19500CAC007615CF /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		4FD43F9119500F67007615CF /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		4FD43F9219500F67007615CF /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		4FD43F9319500F67007615CF /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		4FD43F96195016C9007615CF /* hr_line-sepration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hr_line-sepration.png"; sourceTree = "<group>"; };
+		4FD43F97195016C9007615CF /* hr_line-sepration@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hr_line-sepration@2x.png"; sourceTree = "<group>"; };
+		4FD43F9A19501D17007615CF /* oper_Reasearch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oper_Reasearch-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,15 @@
 			children = (
 				4FD43F6C19500C48007615CF /* AppDelegate.h */,
 				4FD43F6D19500C48007615CF /* AppDelegate.m */,
+				4FD43F8C19500CAC007615CF /* TableViewController.h */,
+				4FD43F8D19500CAC007615CF /* TableViewController.m */,
+				4FD43F8E19500CAC007615CF /* TableViewController.xib */,
+				4FD43F9119500F67007615CF /* TableViewCell.h */,
+				4FD43F9219500F67007615CF /* TableViewCell.m */,
+				4FD43F9319500F67007615CF /* TableViewCell.xib */,
+				4FD43F9A19501D17007615CF /* oper_Reasearch-icon.png */,
+				4FD43F96195016C9007615CF /* hr_line-sepration.png */,
+				4FD43F97195016C9007615CF /* hr_line-sepration@2x.png */,
 				4FD43F6F19500C48007615CF /* Images.xcassets */,
 				4FD43F6419500C48007615CF /* Supporting Files */,
 			);
@@ -219,6 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD43F9B19501D17007615CF /* oper_Reasearch-icon.png in Resources */,
+				4FD43F99195016C9007615CF /* hr_line-sepration@2x.png in Resources */,
+				4FD43F9019500CAC007615CF /* TableViewController.xib in Resources */,
+				4FD43F98195016C9007615CF /* hr_line-sepration.png in Resources */,
+				4FD43F9519500F67007615CF /* TableViewCell.xib in Resources */,
 				4FD43F6819500C48007615CF /* InfoPlist.strings in Resources */,
 				4FD43F7019500C48007615CF /* Images.xcassets in Resources */,
 			);
@@ -240,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD43F6E19500C48007615CF /* AppDelegate.m in Sources */,
+				4FD43F9419500F67007615CF /* TableViewCell.m in Sources */,
+				4FD43F8F19500CAC007615CF /* TableViewController.m in Sources */,
 				4FD43F6A19500C48007615CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
